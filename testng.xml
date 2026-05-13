@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="SmartBank Test Suite">
+
+    <listeners>
+        <listener class-name="listeners.TestListener" />
+    </listeners>
+
+    <test name="SmartBank Tests">
+
+        <classes>
+
+            <class name="tests.LoginTest" />
+
+            <class name="tests.AdminTest" />
+
+        </classes>
+
+    </test>
+
+</suite>
